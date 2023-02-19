@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "public static void method333() { /* do something */ }"
+- text: "public static void method1() { /* do something */ }"
+- text: "public static void method2() { /* do something */ }"
+- text: "public static void method3(int a, double b, long c) { /* do something */\
+    \ }"
+- text: "public static void method1(int a, double b) { /* do something */ }"
+- text: "public static int method2() { /* do something */ }"
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2749#comment
+status: Solved
+record: -1
+local_check: false
